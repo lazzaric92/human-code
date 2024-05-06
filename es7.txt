@@ -1,0 +1,22 @@
+Minimo tra tre
+Il software chiede all'utente di inserire tre numeri. L'applicazione determinerà e stamperà il numero minore tra i tre inseriti.
+
+
+L'utente inserisce il numero A
+poi
+L'utente inserisce il numero B
+poi
+L'utente inserisce il numero C
+
+
+il codice verifica se A e minore di B
+
+ - se A è minore uguale di uguale B
+    - Se A è minore uguale di C, allora stampa A
+        - Se C è minore di A , allora stampa C
+        
+
+
+ - se B è minore di A 
+    - Se B è minore uguale di C, allora stampa B
+        - Se C è minore di B , allora stampa C
