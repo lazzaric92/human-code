@@ -1,0 +1,56 @@
+! PARI O DISPARI?
++ L’utente inserisce in input un numero. Se è pari l’applicazione lo stampa. Se è dispari stampa il numero successivo.
+
+L'utente inserisce un numero (number)
+    - se number % 2 = 0, allora stampa number. 
+    - se number % 2 = 1, allora stampa (number + 1) 
+
+
+
+! IN CINQUE QUANTO FA?
++ Il software chiede all’utente per cinque volte di inserire in input un numero. Il programma stampa la somma di tutti i numeri inseriti.
+
+(A) Posto somma = 0
+(B) L'utente inserisce un numero (number)
+        somma = somma + number
+    Si ripete (B) 5 volte
+(C) Il programma stampa somma
+
+
+
+! LA RIVINCITA DEI DISPARI
++ Il software deve chiedere per 6 volte all’utente di inserire un numero. Se il numero inserito è dispari il software lo stampa.
+
+L'utente inserisce un numero (number)
+    - se number%2 = 1, allora stampa number
+Si ripete 6 volte
+
+
+
+! NUMERI DA IN...CUBO
++ Il software chiede all’utente un numero N. Lo scopo del software è calcolare e stampare il cubo dei primi N numeri.
+
+Posto n = 0
+L'utente inserisce un numero diverso da 0 (N)
+Finché n < N
+    stampa ((n+1) * (n+1) * (n+1))
+
+
+
+! LA MEDIA E' IMPORTANTE
++ Il software deve calcolare la media aritmetica dei primi 10 numeri interi.
+
+(A) Posto somma = 0
+(B) L'utente inserisce un numero (number)
+        somma = somma + number
+    Si ripete (B) 10 volte
+(C) Il programma stampa (somma / 10)
+
+
+
+! MULTIPLO DEL CINQUE?
++ Se è multiplo, fammelo sapere! L'utente inserisce un numero. Se il numero è un multiplo di 5, il programma stamperà "Multiplo di 5". Se non lo è, stamperà "Non è un multiplo di 5".
+
+L'utente inserisce un numero (number)
+    - se number % 5 == 0, allora stampa "Multiplo di 5"
+    - se number % 5 !== 0, allora stampa "Non è un multiplo di 5"
